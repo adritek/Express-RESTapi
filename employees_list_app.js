@@ -9,7 +9,7 @@ const app = express();
 const port = 3000;
 
 //Replace the password in the line below
-const uri =  "mongodb://root:MjA3MC1hZHJpdGVr@localhost:27017";
+const uri =  "mongodb://root:secrets@localhost:27017";
 
 mongoose.connect(uri,{'dbName':'employeeDB'});
 
